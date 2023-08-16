@@ -1,0 +1,26 @@
+{
+    "name": "goody-tech/laravel-logger",
+    "description": "laravel-logger",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "GoodyTech\\LaravelLogger\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "yamaguchi.dai"
+        }
+    ],
+    "require": {
+        "laravel/framework": "^10.16"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "GoodyTech\\LaravelLogger\\Provider\\AppProvider"
+            ]
+        }
+    }
+}
